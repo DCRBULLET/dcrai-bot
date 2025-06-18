@@ -1,0 +1,24 @@
+{
+  "symbol_strategy_map": {
+    "EURUSDm": ["fib_fvg", "volume_liquidity"],
+    "XAUUSD": ["inversion_fvg", "doji_confirmation"],
+    "GBPUSDm": ["london_open_breakout"],
+    "USDJPYm": ["ten_am_manipulation"]
+  },
+  "cooldown_minutes": {
+    "fib_fvg": 30,
+    "inversion_fvg": 30,
+    "volume_liquidity": 30,
+    "doji_confirmation": 30,
+    "london_open_breakout": 60,
+    "ten_am_manipulation": 60,
+    "default": 30
+  },
+  "max_trade_duration_minutes": 180,
+  "confidence_thresholds": {
+    "default": 3
+  },
+  "risk_management": {
+    "default_risk_percent": 1.0
+  }
+}
